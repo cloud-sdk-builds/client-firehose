@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-firehose`](https://www.npmjs.com/package/@aws-sdk/client-firehose/v/3.52.0).
+[`@aws-sdk/client-firehose`](https://www.npmjs.com/package/@aws-sdk/client-firehose/v/3.53.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.52.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.53.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ywGXadwKbxTP+Is5rafjp5GJ0qEshDw4mS77ROjNc6qv15kPZ8ksW4PixVraIUPN
+sha384-q0O614eIo80wKYA2IeuaWZavx775KSCYYQfBnEl5e4xxkASWqUyxqbVUs7/1LJMu
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-firehose": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.52.0/index.min.mjs"
+            "@aws-sdk/client-firehose": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.53.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.52.0/index.min.mjs": "sha384-ywGXadwKbxTP+Is5rafjp5GJ0qEshDw4mS77ROjNc6qv15kPZ8ksW4PixVraIUPN"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.53.0/index.min.mjs": "sha384-q0O614eIo80wKYA2IeuaWZavx775KSCYYQfBnEl5e4xxkASWqUyxqbVUs7/1LJMu"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-firehose": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.52.0/index.min.mjs"
+                        "@aws-sdk/client-firehose": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.53.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.52.0/index.min.mjs": "sha384-ywGXadwKbxTP+Is5rafjp5GJ0qEshDw4mS77ROjNc6qv15kPZ8ksW4PixVraIUPN"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-firehose@3.53.0/index.min.mjs": "sha384-q0O614eIo80wKYA2IeuaWZavx775KSCYYQfBnEl5e4xxkASWqUyxqbVUs7/1LJMu"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.52.0`)
+* Always pin to a specific version (`@3.53.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-firehose/blob/refs/tags/3.52.0/LICENSE
+https://github.com/cloud-sdk-builds/client-firehose/blob/refs/tags/3.53.0/LICENSE
 ```
 
 ---
